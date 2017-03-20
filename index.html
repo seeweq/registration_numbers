@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registrations</title>
+    <link rel="stylesheet" href="registration_number.css">
+  </head>
+  <body>
+    <div class="heading">
+    <h1>Registration Numbers</h1>
+  </div>
+  <div id="textBox">
+    <input id="inputBox" type="text" align="center" placeholder="enter registation number">
+    <button  id="addbton" type="button" onclick="addingbton()">Add</button>
+    <button id="filterbton" type="button" onclick="filterbutton()">Filter</button>
+  </div>
+  <select id="optionsbton">
+  <option id="area" name="location" value="All">All locations</option>
+  <option id="area" name="location" value="CA">Cape Town</option>
+  <option id="area" name="location" value="CY">Bellville</option>
+  <option id="area" name="location" value="CJ">Paarl</option>
+  <option id="area" name="location" value="CL">Stellenbosch</option>
+</select>
+  <div id="numberPlate">
+    <ul id="numberPlates">
+    </ul>
+  </div>
+  </body>
+  <script src="registration_number.js" charset="urf-8"></script>
+</html>

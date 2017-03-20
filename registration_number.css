@@ -1,0 +1,45 @@
+body{
+  background-image: url(darkblue.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+h1 {
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  background-color: blue;
+}
+h2{
+text-align: center;
+color: white;
+}
+#textBox {
+  text-align: center;
+  }
+  #flitbton{
+    margin-left: 600px;
+    margin-top: 10px;
+  }
+li {
+  text-transform: uppercase;
+  border: solid;
+  border-radius: 20px;
+  background-color: yellow;
+  list-style: none;
+  width: 300px;
+  height: 60px;
+  margin-left: 450px;
+  margin-top: 10px;
+}
+#numberPlates {
+  font-size: 50px;
+  text-align: center;
+}
+#optionsbton{
+  margin-left: 600px;
+  margin-top:  20px;
+}
+
+.hidden{
+  display: none;
+}
