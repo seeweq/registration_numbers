@@ -16,10 +16,6 @@ color: white;
 #textBox {
   text-align: center;
   }
-  #flitbton{
-    margin-left: 600px;
-    margin-top: 10px;
-  }
 li {
   text-transform: uppercase;
   border: solid;
@@ -35,11 +31,10 @@ li {
   font-size: 50px;
   text-align: center;
 }
-#optionsbton{
-  margin-left: 600px;
-  margin-top:  20px;
-}
 
 .hidden{
   display: none;
+}
+hr {
+  visibility: hidden;
 }
