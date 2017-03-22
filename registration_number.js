@@ -24,9 +24,8 @@ for(var i=0; i< blocklist.length ;i++){
   var regPlate = blocklist[i].innerHTML;
   console.log(regPlate);
   var outReg = regPlate.toUpperCase();
-
-  if(selectedloc ===outReg ){
-    blocklist[i].style.display= "block";
+  if(selectedloc === "All"){
+    blocklist[i].style.display= 'block';
   }
   else if (selectedloc ===outReg && outReg.startsWith('CA')) {
     blocklist[i].style.display ='block';
